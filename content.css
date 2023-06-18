@@ -1,0 +1,95 @@
+h3{
+   margin: 0px;
+   margin-bottom: 15px;
+   font-size: 24px;
+}
+
+.content{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.contentdiv{
+   display: flex;
+   margin-top: 30px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+   width: 1360px;
+}
+
+.aboutSkills, .contactEducation{
+   display: flex;
+   margin: 0px;
+   flex-direction: column;
+}
+
+.aboutSkills{
+   flex: 3;
+}
+
+.contactEducation{
+   flex: 1;
+}
+
+.aboutMe, .contactInfo, .skills, .education{
+   background: rgb(22, 22, 26);
+   margin: 15px;
+   padding: 40px;
+}
+
+.linebreak{
+   background-color: white;
+   height: 2px;
+   flex-basis: 75%;
+}
+
+.degree{
+   margin-bottom: 0;
+   font-weight: 650;
+}
+
+.college, .date{
+   display: inline-block;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   font-size: 12px;
+}
+
+.college{
+   font-weight: 600;
+}
+
+@media (max-width: 1450px) {
+   .contentdiv{
+      width: 1100px;
+   }
+ }
+
+ @media (max-width: 1250px) {
+   .contentdiv{
+      width: 900px;
+   }
+ }
+
+ @media (max-width: 1000px) {
+   .contentdiv{
+      width: 750px;
+   }
+ }
+
+ @media (max-width: 800px) {
+   .contentdiv{
+      width: 650px;
+      flex-direction: column;
+      align-items: center;
+   }
+   .aboutSkills{
+      width: 100%;
+   }
+   .contactEducation{
+      width: 100%;
+   }
+
+ }
