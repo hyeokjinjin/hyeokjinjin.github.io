@@ -1,5 +1,5 @@
 body{
-   background: rgb(26, 25, 32);
+   background: #18161b;
    margin: 0px;
    width: 100%;
    height: 100%;
@@ -7,10 +7,16 @@ body{
    color: white;
 }
 
+.pagestart{
+   background-color: #f57576;
+   height: 5px;
+   flex-basis: 75%;
+}
+
 .header{
    display: flex;
    flex-direction: row;
-   background: rgb(22, 22, 26);
+   background: #232027;
    padding-top: 20px;
    padding-bottom: 20px;
    padding-left: 10px;

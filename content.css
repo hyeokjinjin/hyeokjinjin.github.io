@@ -35,9 +35,13 @@ h3{
 }
 
 .aboutMe, .contactInfo, .skills, .education{
-   background: rgb(22, 22, 26);
+   background: #232027;
    margin: 15px;
    padding: 40px;
+}
+
+.email{
+   font-weight: 600;
 }
 
 .linebreak{
@@ -46,16 +50,22 @@ h3{
    flex-basis: 75%;
 }
 
+.educationList{
+   display: flex;
+   flex-direction: column;
+}
+
 .degree{
-   margin-bottom: 0;
+   margin-bottom: 4px;
    font-weight: 700;
+   font-size: 18px;
 }
 
 .college, .date{
    display: inline-block;
    margin-top: 0px;
    margin-bottom: 0px;
-   font-size: 12px;
+   font-size: 14px;
 }
 
 .college{
@@ -64,14 +74,54 @@ h3{
 
 .date{
    font-weight: 10;
+   margin-bottom: 5px;
 }
 
 .githublink{
-   color: white;
+   color: #f57576;
    text-decoration: none;
+   font-weight: 600;
+
 }
 
 .githublink:hover{
+   text-decoration: underline;
+}
+
+.projectsList{
+   display: flex;
+   flex-direction: column;
+   margin-top: 15px;
+}
+
+.projects{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.TitleDesc{
+   margin-left: 20px;
+}
+
+.projectTitle{
+   margin-bottom: 10px;
+}
+
+.projectDesc{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.projectLink{
+   color: #14c3a2;
+   text-decoration: none;
+   margin-top: none;
+}
+
+.projectLink:hover{
    text-decoration: underline;
 }
 
