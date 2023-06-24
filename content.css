@@ -2,6 +2,7 @@ h3{
    margin: 0px;
    margin-bottom: 15px;
    font-size: 24px;
+   font-weight: 800;
 }
 
 .content{
@@ -47,7 +48,7 @@ h3{
 
 .degree{
    margin-bottom: 0;
-   font-weight: 650;
+   font-weight: 700;
 }
 
 .college, .date{
@@ -59,6 +60,19 @@ h3{
 
 .college{
    font-weight: 600;
+}
+
+.date{
+   font-weight: 10;
+}
+
+.githublink{
+   color: white;
+   text-decoration: none;
+}
+
+.githublink:hover{
+   text-decoration: underline;
 }
 
 @media (max-width: 1450px) {
