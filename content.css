@@ -5,6 +5,13 @@ h3{
    font-weight: 800;
 }
 
+h5{
+   font-size: 20px;
+   margin-bottom: 0px;
+   margin-top: 28px;
+   font-weight: 800;
+}
+
 .content{
    display: flex;
    flex-direction: row;
@@ -123,6 +130,13 @@ h3{
 
 .projectLink:hover{
    text-decoration: underline;
+}
+
+.collegeName{
+   margin-top: 15px;
+   font-style: italic;
+   margin-bottom: 6px;
+   font-weight: 700;
 }
 
 @media (max-width: 1450px) {
