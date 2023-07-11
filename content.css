@@ -16,6 +16,7 @@ h5{
    display: flex;
    flex-direction: row;
    justify-content: center;
+   width: 100%;
 }
 
 .contentdiv{
@@ -24,7 +25,7 @@ h5{
    flex-direction: row;
    justify-content: center;
    align-items: flex-start;
-   width: 1360px;
+   width: 70%;
 }
 
 .aboutSkills, .contactEducation{
@@ -162,18 +163,6 @@ h5{
 }
 
 
-@media (max-width: 1450px) {
-   .contentdiv{
-      width: 1100px;
-   }
- }
-
- @media (max-width: 1250px) {
-   .contentdiv{
-      width: 900px;
-   }
- }
-
  @media (max-width: 1000px) {
    .contentdiv{
       width: 650px;
@@ -203,4 +192,39 @@ h5{
       margin-top: 10px
    }
 
- }
+}
+
+@media (max-width: 500px) {
+   .contentdiv{
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+   }
+   .aboutSkills{
+      width: 100%;
+   }
+   .contactEducation{
+      width: 100%;
+   }
+   
+   .projects{
+      flex-direction: column;
+   }
+
+   .TitleDesc{
+      margin-left: 0;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .projectTitle{
+      margin-top: 10px
+   }
+
+   .projectPic{
+      max-width: 100%;
+      height: auto;
+   }
+}
