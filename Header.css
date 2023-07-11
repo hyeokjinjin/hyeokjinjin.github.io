@@ -63,19 +63,7 @@ body{
    }
  }
 
- @media (max-width: 1000px) {
-   .headerChild{
-      width: 750px;
-   }
- }
-
- @media (max-width: 800px) {
-   .headerChild{
-      width: 650px;
-   }
- }
-
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
    .facePic{
       width: 280px;
       border-radius: 50%;

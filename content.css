@@ -151,6 +151,15 @@ h5{
    text-decoration: none;
 }
 
+.ENGR{
+   width: 84px;
+}
+
+.COMP{
+   width: 89px;
+}
+
+
 @media (max-width: 1450px) {
    .contentdiv{
       width: 1100px;
@@ -165,12 +174,6 @@ h5{
 
  @media (max-width: 1000px) {
    .contentdiv{
-      width: 750px;
-   }
- }
-
- @media (max-width: 800px) {
-   .contentdiv{
       width: 650px;
       flex-direction: column;
       align-items: center;
@@ -180,6 +183,22 @@ h5{
    }
    .contactEducation{
       width: 100%;
+   }
+   
+   .projects{
+      flex-direction: column;
+   }
+
+   .TitleDesc{
+      margin-left: 0;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .projectTitle{
+      margin-top: 10px
    }
 
  }
