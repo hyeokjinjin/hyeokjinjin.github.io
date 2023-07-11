@@ -1,12 +1,12 @@
 h3{
    margin: 0px;
    margin-bottom: 15px;
-   font-size: 24px;
+   font-size: 28px;
    font-weight: 800;
 }
 
 h5{
-   font-size: 20px;
+   font-size: 24px;
    margin-bottom: 0px;
    margin-top: 28px;
    font-weight: 800;
@@ -139,11 +139,13 @@ h5{
    font-style: italic;
    margin-bottom: 6px;
    font-weight: 700;
+   font-size: 20px;
 }
 
 .collegeWork{
    display: flex;
    flex-direction: row;
+   font-size: 16px;
 }
 
 .courseWork{
