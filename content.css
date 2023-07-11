@@ -145,8 +145,9 @@ h5{
 
 .collegeWork{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    font-size: 16px;
+   width: 100%;
 }
 
 .courseWork{
@@ -154,14 +155,10 @@ h5{
    text-decoration: none;
 }
 
-.ENGR{
-   width: 84px;
+.courseDesc{
+   display: flex;
+   
 }
-
-.COMP{
-   width: 89px;
-}
-
 
  @media (max-width: 1000px) {
    .contentdiv{
@@ -186,6 +183,7 @@ h5{
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
    }
 
    .projectTitle{
@@ -200,31 +198,12 @@ h5{
       flex-direction: column;
       align-items: center;
    }
-   .aboutSkills{
-      width: 100%;
-   }
-   .contactEducation{
-      width: 100%;
-   }
-   
-   .projects{
-      flex-direction: column;
-   }
-
-   .TitleDesc{
-      margin-left: 0;
-      margin-bottom: 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-
-   .projectTitle{
-      margin-top: 10px
-   }
 
    .projectPic{
       max-width: 100%;
       height: auto;
    }
+
+   
+
 }
