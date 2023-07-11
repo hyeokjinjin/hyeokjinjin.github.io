@@ -85,7 +85,7 @@ h5{
 }
 
 .githublink{
-   color: #f57576;
+   color: #da5e5e;
    text-decoration: none;
    font-weight: 600;
 
@@ -115,6 +115,8 @@ h5{
 
 .projectTitle{
    margin-bottom: 10px;
+   font-size: 24px;
+   font-weight: 700;
 }
 
 .projectDesc{
@@ -123,7 +125,7 @@ h5{
 }
 
 .projectLink{
-   color: #14c3a2;
+   color: #6cc644;
    text-decoration: none;
    margin-top: none;
 }
@@ -137,6 +139,16 @@ h5{
    font-style: italic;
    margin-bottom: 6px;
    font-weight: 700;
+}
+
+.collegeWork{
+   display: flex;
+   flex-direction: row;
+}
+
+.courseWork{
+   color: #4078c0;
+   text-decoration: none;
 }
 
 @media (max-width: 1450px) {
