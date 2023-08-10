@@ -39,14 +39,15 @@ body{
 
 .name{
    margin-top: 40px;
-   margin-bottom: 0px;
+   margin-bottom: 10px;
    font-size: 40px;
-   font-weight: 900;
+   font-weight: 800;
 }
 
 .desc{
    margin-top: 5px;
-   font-size: 20px;
+   margin-bottom: 5px;
+   font-size: 15px;
    font-weight: 600;
 }
 
