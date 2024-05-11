@@ -9,7 +9,7 @@ function PortfolioItem({title, imgUrl, stack, link}) {
             className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'
         >
             <img 
-                src="{imgUrl}" 
+                src={imgUrl}
                 alt="portfolio" 
                 className='w-full h-36 md:h-48 object-cover cursor-pointer'
             />
