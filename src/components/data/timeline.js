@@ -1,14 +1,14 @@
 export default[
     {
         year: '2023',
-        title: 'Continued Bachelor\'s Degree in Computer Science at Georgia Institute of Technology',
+        title: 'Continuation of B.S. in Computer Science at Georgia Institute of Technology',
         duration: 'Ongoing',
-        details: 'I transferred to Georgia Tech in order to continue pursuing my Bachelor\'s degree in Computer Science with more rigorous curriculum.',
+        details: 'Transferring to Georgia Tech allowed me to further my academic and professional growth, exposing me to a dynamic learning environment and more advanced topics and curriculum.',
     },
     {
         year: '2022',
-        title: 'Started Bachelor\'s Degree in Computer Science at Auburn University',
+        title: 'Start of B.S. in Computer Science at Auburn University',
         duration: '1 year',
-        details: 'I started my journey in the Computer Science world at Auburn University, learning the basic principles of programming by being introduced to Python and Java.',
+        details: 'My journey in the computer science field started at Auburn University where I learned the basic principles of programming and problem-solving through engaging coursework and collaborative projects.',
     },
 ]

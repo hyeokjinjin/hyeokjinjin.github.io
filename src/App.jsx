@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
 import Footer from './components/Footer'
 import About from './components/About'
+import Courses from './components/Courses'
 
 function App() {
 	const [theme, setTheme] = useState(null);
@@ -85,6 +86,7 @@ function App() {
 					<Portfolio />
 					<About />
 					<Timeline />
+					<Courses />
 					<Footer />
 				</div>
 			</div>
