@@ -74,7 +74,7 @@ function Intro({scrollToPortfolio}) {
             <a 
                 href="#portfolioID"
                 onClick={scrollToPortfolio}
-                className="mb-10 bg-stone-300 dark:bg-stone-700 text-stone-800 dark:text-stone-100 p-2 font-semibold inline-flex items-center space-x-2 rounded-full">
+                className="animate-bounce mb-10 bg-stone-300 dark:bg-stone-700 text-stone-800 dark:text-stone-100 p-2 font-semibold inline-flex items-center space-x-2 rounded-full">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                 </svg>

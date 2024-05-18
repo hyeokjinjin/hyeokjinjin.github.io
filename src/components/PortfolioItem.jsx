@@ -6,14 +6,16 @@ function PortfolioItem({title, imgUrl, stack, link}) {
             href={link}
             target='_blank'
             rel='noopener noreferrer'
-            className='border-2 border-stone-900 dark:border-white rounded-md overflow-hidden'
+            className='transform transition duration-250 hover:scale-105 
+                        border-2 border-stone-900 dark:border-white rounded-md overflow-hidden 
+                        hover:opacity-90'
         >
             <img 
                 src={imgUrl}
                 alt="portfolio" 
                 className='w-full h-36 md:h-48 object-cover cursor-pointer'
             />
-            <div className='w-full p-4'>
+            <div className='w-full p-4 dark:text-stone-100'>
                 <h3 className='text-lg md:text-xl dark:border-white mb-2 md:mb-3 font-semibold'>{title}</h3>
                 <p className='flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:border-white'>
                     {stack.map(item => (
