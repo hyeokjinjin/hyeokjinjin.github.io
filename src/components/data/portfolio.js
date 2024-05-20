@@ -1,5 +1,11 @@
 export default [
     {
+        title: 'GameHawk',
+        imgUrl: '/assets/gamehawk.png',
+        stack: ['Java'],
+        link: 'https://github.com/hyeokjinjin/gameHawk',
+    },
+    {
         title: 'Better Spotify Wrapped',
         imgUrl: '/assets/betterwrap.jpg',
         stack: ['Java', 'SQLite'],
