@@ -8,12 +8,12 @@ export default[
         desc: 'Intro to Database Systems',
     },
     {
-        name: 'CS 2110',
-        desc: 'Computer Organization and Programming',
-    },
-    {
         name: 'CS 2340',
         desc: 'Objects and Design (Android Studio, Java)',
+    },
+    {
+        name: 'CS 2110',
+        desc: 'Computer Organization and Programming',
     },
     {
         name: 'CS 2050',
