@@ -1,9 +1,9 @@
 export default [
     {
-        title: 'GameHawk',
-        imgUrl: '/assets/gamehawk.png',
-        stack: ['Java'],
-        link: 'https://github.com/hyeokjinjin/gameHawk',
+        title: 'Word Helper',
+        imgUrl: '/assets/wordhelper.png',
+        stack: ['Java', 'Python'],
+        link: 'https://github.com/hyeokjinjin/wordhelper',
     },
     {
         title: 'Better Spotify Wrapped',
