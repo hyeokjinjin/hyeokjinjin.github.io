@@ -1,7 +1,7 @@
 export default [
     {
         title: 'Word Helper',
-        imgUrl: '/assets/wordfinder.png',
+        imgUrl: '/assets/wordfinder.jpg',
         stack: ['Java', 'Python'],
         link: 'https://github.com/hyeokjinjin/wordfinder',
     },
