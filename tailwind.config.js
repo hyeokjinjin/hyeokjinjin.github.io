@@ -6,9 +6,6 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    colors: {
-      'spotifyblack': '#121212'
-    },
     extend: {
       fontFamily: {
         inter: ['inter', 'serif'],
