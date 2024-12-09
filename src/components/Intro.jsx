@@ -13,7 +13,8 @@ function Intro({scrollToPortfolio}) {
 								href="https://github.com/hyeokjinjin"
                                 target='_blank'
                                 rel='noopener noreferrer'
-								className="bg-stone-300 dark:bg-stone-700 text-stone-800 dark:text-stone-100 p-2 font-semibold inline-flex items-center space-x-2 rounded-full">
+								className="transform transition duration-250 hover:scale-105
+											bg-stone-300 dark:bg-stone-700 text-stone-800 dark:text-stone-100 p-2 font-semibold inline-flex items-center space-x-2 rounded-full">
 								<svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlnsXlink="http://www.w3.org/1999/xlink"
