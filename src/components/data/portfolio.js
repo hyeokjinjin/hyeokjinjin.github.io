@@ -1,15 +1,21 @@
 export default [
     {
         title: 'Word Helper',
-        imgUrl: '/assets/wordhelper.png',
+        imgUrl: '/assets/wordfinder.png',
         stack: ['Java', 'Python'],
-        link: 'https://github.com/hyeokjinjin/wordhelper',
+        link: 'https://github.com/hyeokjinjin/wordfinder',
     },
     {
         title: 'Better Spotify Wrapped',
         imgUrl: '/assets/betterwrap.jpg',
-        stack: ['Java', 'SQLite'],
+        stack: ['Java', 'SQL'],
         link: 'https://youtu.be/9bqzak2Abwk',
+    },
+    {
+        title: 'gopü',
+        imgUrl: '/assets/gopu.jpg',
+        stack: ['Java', 'Maps SDK', 'SQL'],
+        link: 'https://devfolio.co/projects/gopu-f6fe',
     },
     {
         title: 'Personal Developer Portfolio',
