@@ -8,6 +8,18 @@ export default[
         desc: 'Intro to Database Systems',
     },
     {
+        name: 'CS 3630',
+        desc: 'Intro to Perception and Robotics'
+    },
+    {
+        name: 'CS 3600',
+        desc: 'Intro to Artificial Intelligence'
+    },
+    {
+        name: 'CS 3510',
+        desc: 'Design and Analysis of Algorithms'
+    },
+    {
         name: 'CS 2340',
         desc: 'Objects and Design (Android Studio, Java)',
     },
@@ -28,12 +40,20 @@ export default[
         desc: 'Intro to Object Oriented Programming (Java)',
     },
     {
-        name: 'MATH 1554',
-        desc: 'Linear Algebra',
+        name: 'CS 1301',
+        desc: 'Intro to Computing'
     },
     {
         name: 'MATH 2550',
         desc: 'Intro to Multivariable Calculus',
+    },
+    {
+        name: 'MATH 1554',
+        desc: 'Linear Algebra',
+    },
+    {
+        name: 'MATH 1552',
+        desc: 'Integral Calculus',
     },
     {
         name: 'ISYE 3770',
