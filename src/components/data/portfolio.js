@@ -18,6 +18,12 @@ export default [
         link: 'https://devfolio.co/projects/gopu-f6fe',
     },
     {
+        title: 'Store Visualizer',
+        imgUrl: '/assets/storevisualizer.jpg',
+        stack: ['Python', 'OSM', 'Overpass'],
+        link: 'https://github.com/hyeokjinjin/StoreVisualizer',
+    },
+    {
         title: 'Personal Developer Portfolio',
         imgUrl: '/assets/personalport.jpg',
         stack: ['React', 'Tailwind', 'Vite'],
