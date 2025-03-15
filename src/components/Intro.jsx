@@ -50,7 +50,7 @@ function Intro({scrollToPortfolio}) {
 								</svg>
 							</a>
 							<a 
-								href="/public/assets/Resume.pdf"
+								href="/assets/2025_Resume.pdf"
                                 target='_blank'
                                 rel='noopener noreferrer'
 								className="bg-stone-300 dark:bg-stone-700 text-stone-800 dark:text-stone-100 p-2 font-semibold inline-flex items-center space-x-2 rounded-full">
